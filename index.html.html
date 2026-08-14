@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaveFood AI - Less Waste. More Profit.</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <div class="logo-icon">🌿</div>
+                <span>SaveFood AI</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#problem" class="nav-link">Problem</a>
+                <a href="#solution" class="nav-link">Solution</a>
+                <a href="#demo" class="nav-link">Demo</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#roadmap" class="nav-link">Roadmap</a>
+                <a href="#demo" class="btn btn-primary btn-small">Try Demo</a>
+            </nav>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-overlay" id="mobileOverlay">
+        <div class="mobile-menu">
+            <a href="#problem" class="mobile-link">Problem</a>
+            <a href="#solution" class="mobile-link">Solution</a>
+            <a href="#demo" class="mobile-link">Demo</a>
+            <a href="#features" class="mobile-link">Features</a>
+            <a href="#pricing" class="mobile-link">Pricing</a>
+            <a href="#roadmap" class="mobile-link">Roadmap</a>
+            <a href="#demo" class="btn btn-primary mobile-cta">Try Demo</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">
+                    <span>🌿</span>
+                    <span>AI for sustainable grocery retail</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    Less waste.
+                    <span class="highlight">More profit.</span>
+                </h1>
+                
+                <p class="hero-description">
+                    SaveFood AI helps grocery stores reduce food waste and financial losses 
+                    by analyzing historical data and recommending optimal purchasing quantities.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#demo" class="btn btn-primary btn-large">
+                        See Live Demo
+                        <span class="arrow">→</span>
+                    </a>
+                    <a href="#problem" class="btn btn-secondary btn-large">Learn More</a>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="1.05">0</div>
+                        <div class="stat-label">B tonnes wasted/year</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="10">0</div>
+                        <div class="stat-label">% of global emissions</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="4000" data-prefix="$" data-format="currency">$0</div>
+                        <div class="stat-label">avg. annual savings*</div>
+                    </div>
+                </div>
+                <p class="disclaimer">*Demonstration example</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="section problem" id="problem">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Global Food Waste Crisis</h2>
+                <p class="section-subtitle">
+                    Food waste isn't just an environmental issue—it's a direct financial 
+                    burden on grocery stores worldwide.
+                </p>
+            </div>
+            
+            <div class="cards-grid">
+                <div class="card fade-in">
+                    <div class="card-icon">⚠️</div>
+                    <h3 class="card-number">1.05B</h3>
+                    <p class="card-text">tonnes of food lost or wasted globally each year</p>
+                </div>
+                
+                <div class="card fade-in">
+                    <div class="card-icon">🗑️</div>
+                    <h3 class="card-number">1B+</h3>
+                    <p class="card-text">portions of food discarded every single day</p>
+                </div>
+                
+                <div class="card fade-in">
+                    <div class="card-icon">🌍</div>
+                    <h3 class="card-number">8–10%</h3>
+                    <p class="card-text">contribution to global greenhouse gas emissions</p>
+                </div>
+            </div>
+            
+            <div class="causes-section">
+                <h3 class="causes-title">Causes of Grocery Store Losses</h3>
+                <div class="causes-container">
+                    <div class="cause-item">
+                        <div class="cause-header">
+                            <span class="cause-label">Human factor</span>
+                            <span class="cause-percentage">30%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="30"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="cause-item">
+                        <div class="cause-header">
+                            <span class="cause-label">Inaccurate forecasting</span>
+                            <span class="cause-percentage">25%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="25"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="cause-item">
+                        <div class="cause-header">
+                            <span class="cause-label">Seasonality</span>
+                            <span class="cause-percentage">20%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="20"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="cause-item">
+                        <div class="cause-header">
+                            <span class="cause-label">Sudden changes in demand</span>
+                            <span class="cause-percentage">15%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="15"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="cause-item">
+                        <div class="cause-header">
+                            <span class="cause-label">Other factors</span>
+                            <span class="cause-percentage">10%</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress-fill" data-width="10"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="section solution" id="solution">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The SaveFood AI Solution</h2>
+                <p class="section-subtitle">
+                    SaveFood AI analyzes historical store data and recommends optimal purchasing 
+                    volumes. The system is designed to help managers make more accurate 
+                    decisions—it doesn't replace the manager; it assists the manager.
+                </p>
+            </div>
+            
+            <div class="solution-grid">
+                <div class="solution-example">
+                    <h3 class="solution-heading">Real Example from Product Presentation</h3>
+                    
+                    <div class="comparison-card before-card">
+                        <h4 class="comparison-title">Before SaveFood AI</h4>
+                        <div class="comparison-row">
+                            <span>Banana order</span>
+                            <span>100 kg</span>
+                        </div>
+                        <div class="comparison-row">
+                            <span>Sold</span>
+                            <span>80 kg</span>
+                        </div>
+                        <div class="comparison-row negative">
+                            <span>Written off</span>
+                            <span>20 kg</span>
+                        </div>
+                    </div>
+                    
+                    <div class="comparison-card after-card">
+                        <h4 class="comparison-title">After SaveFood AI</h4>
+                        <div class="comparison-row">
+                            <span>Order</span>
+                            <span>82 kg</span>
+                        </div>
+                        <div class="comparison-row">
+                            <span>Sold</span>
+                            <span>79 kg</span>
+                        </div>
+                        <div class="comparison-row positive">
+                            <span>Written off</span>
+                            <span>3 kg</span>
+                        </div>
+                    </div>
+                    
+                    <p class="note">Example from product presentation, not independently verified real-world performance.</p>
+                </div>
+                
+                <div class="economics-card">
+                    <h3 class="economics-title">Average Store Economics</h3>
+                    
+                    <div class="economics-item">
+                        <div class="economics-value">$20,000</div>
+                        <div class="economics-label">Annual food write-offs</div>
+                    </div>
+                    
+                    <div class="economics-item">
+                        <div class="economics-value highlight">20%</div>
+                        <div class="economics-label">Example reduction</div>
+                    </div>
+                    
+                    <div class="economics-item">
+                        <div class="economics-value highlight">$4,000</div>
+                        <div class="economics-label">Example annual savings</div>
+                    </div>
+                    
+                    <p class="note">
+                        Demonstration example. Actual results depend on store size, product 
+                        categories and data quality.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section class="section demo" id="demo">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">See the AI in Action</h2>
+                <p class="section-subtitle">
+                    Interactive demonstration showing how SaveFood AI optimizes purchasing decisions.
+                </p>
+            </div>
+            
+            <div class="product-selector">
+                <button class="product-btn active" data-product="bananas">Bananas</button>
+                <button class="product-btn" data-product="milk">Milk</button>
+                <button class="product-btn" data-product="meat">Meat</button>
+                <button class="product-btn" data-product="vegetables">Vegetables</button>
+            </div>
+            
+            <div class="dashboard" id="dashboard">
+                <!-- Dashboard content will be dynamically inserted here -->
+            </div>
+            
+            <div class="economics-demo">
+                <h3 class="economics-demo-title">Average Store Economics</h3>
+                <div class="economics-demo-grid">
+                    <div class="eco-item">
+                        <div class="eco-value">$20,000</div>
+                        <div class="eco-label">Annual food write-offs</div>
+                    </div>
+                    <div class="eco-item">
+                        <div class="eco-value highlight">20%</div>
+                        <div class="eco-label">Example reduction</div>
+                    </div>
+                    <div class="eco-item">
+                        <div class="eco-value highlight">$4,000</div>
+                        <div class="eco-label">Example annual savings</div>
+                    </div>
+                </div>
+                <p class="note center-note">
+                    Demonstration example. Actual results depend on store size, product 
+                    categories and data quality.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section features" id="features">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Powerful Features for Smarter Retail</h2>
+                <p class="section-subtitle">
+                    Everything you need to optimize purchasing and reduce food waste.
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="feature-title">AI Purchasing Forecasts</h3>
+                    <p class="feature-text">Machine learning models that predict optimal order quantities based on historical data.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3 class="feature-title">Real-time Write-off Analysis</h3>
+                    <p class="feature-text">Monitor and analyze food waste in real-time to identify trends and opportunities.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3 class="feature-title">Simple Implementation</h3>
+                    <p class="feature-text">Quick and easy setup designed for small and medium-sized businesses.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💎</div>
+                    <h3 class="feature-title">Affordable SaaS Model</h3>
+                    <p class="feature-text">Cost-effective subscription pricing that delivers immediate ROI.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🏪</div>
+                    <h3 class="feature-title">SMB Focus</h3>
+                    <p class="feature-text">Specifically designed for small and medium-sized grocery businesses.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h3 class="feature-title">Network Scaling</h3>
+                    <p class="feature-text">Easily scale from one store to a full network of locations.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3 class="feature-title">POS/ERP Integrations</h3>
+                    <p class="feature-text">Seamless integration with existing point-of-sale and ERP systems.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">💻</div>
+                    <h3 class="feature-title">API Access</h3>
+                    <p class="feature-text">Full API access for custom integrations and workflows.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3 class="feature-title">Custom AI Models</h3>
+                    <p class="feature-text">Tailored AI models for specific product categories and business needs.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3 class="feature-title">Sales Analytics</h3>
+                    <p class="feature-text">Comprehensive analytics to understand sales patterns and trends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target Customers Section -->
+    <section class="section customers">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Who We Serve</h2>
+                <p class="section-subtitle">
+                    Designed for businesses of all sizes in the grocery retail sector.
+                </p>
+            </div>
+            
+            <div class="customers-grid">
+                <div class="customer-card">
+                    <div class="customer-icon">🏪</div>
+                    <h3 class="customer-title">Small Grocery Stores</h3>
+                    <p class="customer-text">1–5 locations, often manual accounting, particularly affected by write-offs.</p>
+                </div>
+                
+                <div class="customer-card">
+                    <div class="customer-icon">🛒</div>
+                    <h3 class="customer-title">Medium Supermarkets</h3>
+                    <p class="customer-text">5–50 stores, often already use POS systems, need purchasing optimization.</p>
+                </div>
+                
+                <div class="customer-card">
+                    <div class="customer-icon">🏢</div>
+                    <h3 class="customer-title">Grocery Chains</h3>
+                    <p class="customer-text">Centralized purchasing, large losses from forecasting errors.</p>
+                </div>
+                
+                <div class="customer-card">
+                    <div class="customer-icon">🚚</div>
+                    <h3 class="customer-title">Distribution Centers</h3>
+                    <p class="customer-text">Large product volumes, complex logistics operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="section pricing" id="pricing">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">
+                    Affordable SaaS subscription plans designed for businesses of all sizes.
+                </p>
+            </div>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 class="pricing-name">Basic</h3>
+                    <div class="pricing-price">$99–199 <span class="pricing-period">/month</span></div>
+                    <ul class="pricing-features">
+                        <li>✓ AI purchasing forecasts</li>
+                        <li>✓ Real-time write-off analysis</li>
+                        <li>✓ Basic dashboard</li>
+                        <li>✓ Email support</li>
+                        <li>✓ Up to 5 products</li>
+                    </ul>
+                    <button class="btn btn-secondary btn-full">Get Started</button>
+                </div>
+                
+                <div class="pricing-card featured">
+                    <span class="featured-badge">Most Popular</span>
+                    <h3 class="pricing-name">Business</h3>
+                    <div class="pricing-price">$299–599 <span class="pricing-period">/month</span></div>
+                    <ul class="pricing-features">
+                        <li>✓ Everything in Basic</li>
+                        <li>✓ POS/ERP integrations</li>
+                        <li>✓ API access</li>
+                        <li>✓ Sales analytics</li>
+                        <li>✓ Priority support</li>
+                        <li>✓ Up to 50 products</li>
+                    </ul>
+                    <button class="btn btn-primary btn-full">Get Started</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3 class="pricing-name">Enterprise</h3>
+                    <div class="pricing-price">from $1,000 <span class="pricing-period">/month</span></div>
+                    <ul class="pricing-features">
+                        <li>✓ Everything in Business</li>
+                        <li>✓ Custom AI models</li>
+                        <li>✓ Multi-store scaling</li>
+                        <li>✓ Dedicated support</li>
+                        <li>✓ Custom integrations</li>
+                        <li>✓ Unlimited products</li>
+                    </ul>
+                    <button class="btn btn-secondary btn-full">Get Started</button>
+                </div>
+            </div>
+            
+            <div class="additional-services">
+                <h3 class="services-title">Additional Services</h3>
+                <div class="services-grid">
+                    <span class="service-tag">POS/ERP integrations</span>
+                    <span class="service-tag">API access</span>
+                    <span class="service-tag">Inventory optimization consulting</span>
+                    <span class="service-tag">Custom AI solutions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Competitors Section -->
+    <section class="section competitors">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Why SaveFood AI?</h2>
+                <p class="section-subtitle">
+                    We focus particularly on small and medium-sized businesses with simple 
+                    implementation and a lower-cost SaaS model.
+                </p>
+            </div>
+            
+            <div class="competitors-content">
+                <h3 class="competitors-title">Competitive Landscape</h3>
+                <div class="competitors-tags">
+                    <span class="competitor-tag">Afresh</span>
+                    <span class="competitor-tag">Shelf Engine</span>
+                    <span class="competitor-tag">RELEX Solutions</span>
+                    <span class="competitor-tag">Blue Yonder</span>
+                    <span class="competitor-tag">SAP IBP</span>
+                </div>
+                <p class="competitors-note">
+                    SaveFood AI differentiates through simplicity, affordability, and focus on SMBs.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section class="section roadmap" id="roadmap">
+        <div class="container">
+            <div class="section-header center">
+                <h2 class="section-title">Our Roadmap</h2>
+                <p class="section-subtitle">Our journey from MVP to global scale.</p>
+            </div>
+            
+            <div class="roadmap-timeline">
+                <div class="roadmap-item">
+                    <div class="roadmap-year">2026</div>
+                    <div class="roadmap-content">
+                        <h3 class="roadmap-title">MVP Launch</h3>
+                        <ul class="roadmap-list">
+                            <li>✓ AI forecasting model</li>
+                            <li>✓ Dashboard development</li>
+                            <li>✓ First POS integrations</li>
+                            <li>✓ Testing in 3–5 stores</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="roadmap-item">
+                    <div class="roadmap-year">2027</div>
+                    <div class="roadmap-content">
+                        <h3 class="roadmap-title">Commercial Version</h3>
+                        <ul class="roadmap-list">
+                            <li>✓ First paying customers</li>
+                            <li>✓ Sales and technical support team</li>
+                            <li>✓ POS/ERP integrations expansion</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="roadmap-item">
+                    <div class="roadmap-year">2028</div>
+                    <div class="roadmap-content">
+                        <h3 class="roadmap-title">Growth Phase</h3>
+                        <ul class="roadmap-list">
+                            <li>✓ 250+ customers target</li>
+                            <li>✓ Mobile application</li>
+                            <li>✓ Seasonal demand forecasting</li>
+                            <li>✓ Partner API</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="roadmap-item">
+                    <div class="roadmap-year">2029</div>
+                    <div class="roadmap-content">
+                        <h3 class="roadmap-title">International Expansion</h3>
+                        <ul class="roadmap-list">
+                            <li>✓ Poland, Czech Republic</li>
+                            <li>✓ Ukraine, Belarus</li>
+                            <li>✓ Slovakia, Hungary, Romania</li>
+                            <li>✓ Kazakhstan, Uzbekistan</li>
+                            <li>✓ Kyrgyzstan, Tajikistan</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="roadmap-item">
+                    <div class="roadmap-year">2030</div>
+                    <div class="roadmap-content">
+                        <h3 class="roadmap-title">Advanced Features</h3>
+                        <ul class="roadmap-list">
+                            <li>✓ Automatic order generation</li>
+                            <li>✓ Weather-aware forecasting</li>
+                            <li>✓ Dynamic pricing</li>
+                            <li>✓ Logistics forecasting</li>
+                            <li>✓ Advanced analytics</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="roadmap-item">
+                    <div class="roadmap-year">2031–2032</div>
+                    <div class="roadmap-content">
+                        <h3 class="roadmap-title">Global Scale</h3>
+                        <ul class="roadmap-list">
+                            <li>✓ Western Europe expansion</li>
+                            <li>✓ Middle East, Central Asia</li>
+                            <li>✓ International partnerships</li>
+                            <li>✓ AI marketplace</li>
+                            <li>✓ Generative AI assistant</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🌿</span>
+                        <span>SaveFood AI</span>
+                    </div>
+                    <p class="footer-tagline">Less waste. More profit.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <a href="#problem" class="footer-link">Problem</a>
+                    <a href="#solution" class="footer-link">Solution</a>
+                    <a href="#demo" class="footer-link">Demo</a>
+                    <a href="#features" class="footer-link">Features</a>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact</h4>
+                    <p class="footer-text">Interested in learning more? Contact us for a demo.</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 SaveFood AI. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
